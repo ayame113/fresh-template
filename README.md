@@ -1,5 +1,7 @@
 # fresh project
 
+![screenshot](./screenshot.png)
+
 ### Usage
 
 Start the project:
