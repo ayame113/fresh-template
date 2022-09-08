@@ -5,7 +5,7 @@ import { tw } from "@twind";
 
 import { Button } from "../components/Button.tsx";
 
-interface CounterProps {
+export interface CounterProps {
   start: number;
 }
 
