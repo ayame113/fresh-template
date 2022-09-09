@@ -1,6 +1,4 @@
-/** @jsx h */
-import { h } from "preact";
-import { tw } from "@twind";
+import type { h } from "preact";
 
 export function Link({ ...props }: h.JSX.HTMLAttributes<HTMLAnchorElement>) {
   if (
@@ -15,7 +13,7 @@ export function Link({ ...props }: h.JSX.HTMLAttributes<HTMLAnchorElement>) {
     <a
       {...props}
       class={(props.class ? `${props.class} ` : "") +
-        tw`text-blue-600 hover:underline`}
+        "text-blue-600 hover:underline"}
     >
       {props.children}
     </a>

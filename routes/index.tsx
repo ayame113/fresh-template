@@ -1,16 +1,11 @@
-/** @jsx h */
-import { h } from "preact";
-import { tw } from "@twind";
-
-import * as metadata from "../utils/metadata.ts";
-
+import * as metadata from "../metadata.ts";
 import { Header } from "../components/Header.tsx";
 import { Footer } from "../components/Footer.tsx";
 import { Main } from "../components/Main.tsx";
 
 export default function Home() {
   return (
-    <body class={tw`min-h-screen flex flex-col`}>
+    <body class="min-h-screen flex flex-col">
       <Header />
       <Main />
       <Footer />
