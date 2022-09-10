@@ -1,6 +1,6 @@
-import type { h } from "preact";
+import type { JSX } from "preact";
 
-export function Link({ ...props }: h.JSX.HTMLAttributes<HTMLAnchorElement>) {
+export function Link({ ...props }: JSX.HTMLAttributes<HTMLAnchorElement>) {
   if (
     props.href?.startsWith("https://") ||
     props.href?.startsWith("http://") ||
